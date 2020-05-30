@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Wain Nakel_H
+
+  Created by Hany Mahmoud on 5/30/20.
+  Copyright © 2020 Hany Mahmoud. All rights reserved.
+*/
+
+"ErrorText" = "Failed";
+"NoNetworkText" = "No internet connection";
+"NoImagesText" = "There is no images";
+"OpenGoogleMapText" = "Can't open google maps application";
+"SuggestText" = "Suggest";
+"CurrentLocationText" = "Current Location";

@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Wain Nakel_H
+
+  Created by Hany Mahmoud on 5/30/20.
+  Copyright © 2020 Hany Mahmoud. All rights reserved.
+*/
+
+"ErrorText" = "فشل";
+"NoNetworkText" = "لايوجد إتصال بالانترنت";
+"NoImagesText" = "لايوجد صور";
+"OpenGoogleMapText" = "فشل فتح التطبيق";
+"SuggestText" = "اقترح";
+"CurrentLocationText" = "الموقع الحالى";

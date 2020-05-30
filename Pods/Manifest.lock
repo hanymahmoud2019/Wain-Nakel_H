@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (4.9.1)
+  - ReachabilitySwift (5.0.0)
+  - Spring (1.0.6)
+  - SVProgressHUD (2.2.5)
+  - SwiftPhotoGallery (3.4.1)
+  - SwiftyJSON (5.0.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - ReachabilitySwift
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+  - SVProgressHUD
+  - SwiftPhotoGallery
+  - SwiftyJSON
+  - Toast-Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ReachabilitySwift
+    - SVProgressHUD
+    - SwiftPhotoGallery
+    - SwiftyJSON
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 50d92a5b9e08848387ae95bf44c6ad20834f7083
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftPhotoGallery: 795b79e2596beb160fb978e232603da0811006ce
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: ecc630d9d3abe97239513df7f57a1ed77695b576
+
+COCOAPODS: 1.7.0
