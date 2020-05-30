@@ -45,8 +45,8 @@ class HomeVC: UIViewController {
                 self?.lblResturantName.text = "ErrorText".localized
                 self?.lblCategory.text = ""
                 self?.lblRate.text = ""
-                //self?.map.removeAnnotations(self?.map.annotations ?? [])
-                //self?.updateRegion(currentLocation: self!.currentLocation)
+                self?.map.removeAnnotations(self?.map.annotations ?? [])
+                self?.updateRegion(currentLocation: self!.currentLocation)
                 self?.view.makeToast("NoNetworkText".localized)
             case .reachable(_):
                 print("internet")
