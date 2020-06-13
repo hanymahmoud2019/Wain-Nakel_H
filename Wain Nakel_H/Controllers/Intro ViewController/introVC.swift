@@ -16,6 +16,8 @@ class introVC: UIViewController {
     @IBOutlet weak var btnSuggest: SpringButton!
     @IBOutlet weak var btnSettings: SpringButton!
     @IBOutlet weak var imgSettings: SpringImageView!
+    @IBOutlet weak var imgLogo: SpringImageView!
+    
     //******************************************
     
     
@@ -69,16 +71,32 @@ extension introVC {
     
     func animateButtons(){
         
-        btnSuggest.animation = Spring.AnimationPreset.SqueezeLeft.rawValue
+        imgLogo.animation = Spring.AnimationPreset.SlideUp.rawValue
+        imgLogo.duration = 2.5
+        imgLogo.animate()
+        
+        btnSuggest.animation = Spring.AnimationPreset.SlideLeft.rawValue
         btnSuggest.duration = 1.5
         btnSuggest.animate()
         
-        btnSettings.animation = Spring.AnimationPreset.SqueezeRight.rawValue
+        btnSuggest.animation = Spring.AnimationPreset.SlideUp.rawValue
+        btnSuggest.duration = 2.5
+        btnSuggest.animate()
+        
+        btnSettings.animation = Spring.AnimationPreset.SlideRight.rawValue
         btnSettings.duration = 1.5
         btnSettings.animate()
         
-        imgSettings.animation = Spring.AnimationPreset.SqueezeRight.rawValue
+        btnSettings.animation = Spring.AnimationPreset.SlideUp.rawValue
+        btnSettings.duration = 2.5
+        btnSettings.animate()
+        
+        imgSettings.animation = Spring.AnimationPreset.SlideRight.rawValue
         imgSettings.duration = 1.5
+        imgSettings.animate()
+        
+        imgSettings.animation = Spring.AnimationPreset.SlideUp.rawValue
+        imgSettings.duration = 2.5
         imgSettings.animate()
     }
 }

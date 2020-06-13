@@ -10,7 +10,7 @@
         <!--IntroVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="initialVC" id="BYZ-38-t0r" customClass="introVC" customModule="Wain_Nakel_H" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="initialVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="introVC" customModule="Wain_Nakel_H" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,7 +22,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </mapView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-white" translatesAutoresizingMaskIntoConstraints="NO" id="5aV-hE-bJ8">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-white" translatesAutoresizingMaskIntoConstraints="NO" id="5aV-hE-bJ8" customClass="SpringImageView" customModule="Spring">
                                         <rect key="frame" x="41.333333333333343" y="168.66666666666666" width="331.33333333333326" height="358.66666666666674"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="500" id="pXs-60-9Ja"/>
@@ -107,6 +107,7 @@
                     <connections>
                         <outlet property="btnSettings" destination="Pei-6b-Y3B" id="ZBi-kp-g6s"/>
                         <outlet property="btnSuggest" destination="LTd-h7-WE4" id="bZH-I6-rBr"/>
+                        <outlet property="imgLogo" destination="5aV-hE-bJ8" id="bf0-3F-2DQ"/>
                         <outlet property="imgSettings" destination="Cy7-W4-hxw" id="Tqu-Te-8sL"/>
                     </connections>
                 </viewController>
@@ -117,7 +118,7 @@
         <!--HomeVC-->
         <scene sceneID="Xzx-Nw-bnF">
             <objects>
-                <viewController storyboardIdentifier="homeVC" id="PVy-qF-aox" customClass="HomeVC" customModule="Wain_Nakel_H" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="homeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PVy-qF-aox" customClass="HomeVC" customModule="Wain_Nakel_H" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ecT-aX-5BO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -395,7 +396,7 @@
         <!--Navigation Controller-->
         <scene sceneID="8fo-Vx-KoM">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cTe-su-qdu" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="mainNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cTe-su-qdu" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GOe-61-K7m">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

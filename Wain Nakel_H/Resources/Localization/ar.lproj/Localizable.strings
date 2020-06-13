@@ -12,3 +12,6 @@
 "OpenGoogleMapText" = "فشل فتح التطبيق";
 "SuggestText" = "اقترح";
 "CurrentLocationText" = "الموقع الحالى";
+"ErrorSave" = "فشل الحفظ فى قاعدة البيانات";
+"ErrorFetch" = "فشل التحميل من قاعدة البيانات";
+"ErrorDelete" = "فشل الحذف من قاعدة البيانات";

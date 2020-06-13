@@ -12,3 +12,6 @@
 "OpenGoogleMapText" = "Can't open google maps application";
 "SuggestText" = "Suggest";
 "CurrentLocationText" = "Current Location";
+"ErrorSave" = "Failed to save in core data";
+"ErrorFetch" = "Failed to fetch load from core data";
+"ErrorDelete" = "Failed to delete from core data";

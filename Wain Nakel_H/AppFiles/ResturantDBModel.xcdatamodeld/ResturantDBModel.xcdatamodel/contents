@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ResturantEntity" representedClassName="ResturantEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="cat" optional="YES" attributeType="String"/>
+        <attribute name="catID" optional="YES" attributeType="String"/>
+        <attribute name="error" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Transformable" customClassName="[NSString]"/>
+        <attribute name="lat" optional="YES" attributeType="String"/>
+        <attribute name="link" optional="YES" attributeType="String"/>
+        <attribute name="lon" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="openResturant" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="YES" attributeType="String"/>
+        <attribute name="ulat" optional="YES" attributeType="String"/>
+        <attribute name="ulon" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="ResturantEntity" positionX="-54" positionY="-9" width="128" height="238"/>
+    </elements>
+</model>
